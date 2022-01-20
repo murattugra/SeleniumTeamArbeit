@@ -28,6 +28,7 @@ public class HomeWork02 {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+
         driver.get("https://github.com/");
         driver.navigate().to("https://www.hepsiburada.com/");
 
